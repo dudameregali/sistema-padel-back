@@ -31,4 +31,3 @@ class Subcription(models.Model):
     pairPoint = models.FloatField()
     #teste = Registration.objects.filter(Registration.cpf == playerOne or Registration.cpf == playerTwo)
 
-#comentario
