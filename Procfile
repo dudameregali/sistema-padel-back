@@ -1,1 +1,1 @@
-web: gunicorn projetopadel2
+web:gunicorn projetopadel2
