@@ -30,3 +30,5 @@ class Subcription(models.Model):
     category = models.CharField(max_length=4, choices=choicesOfCategory)
     pairPoint = models.FloatField()
     #teste = Registration.objects.filter(Registration.cpf == playerOne or Registration.cpf == playerTwo)
+
+#comentario
