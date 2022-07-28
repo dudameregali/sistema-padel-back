@@ -10,12 +10,12 @@ class Tournament(models.Model):
     endDate = models.DateTimeField()
     numberOfCourts = models.IntegerField()
 
-    def assemblyOfGroups(category):
-        filtro = subscription.objects.filter(subscription.category == category).order_by(subscription.pairPoint)
-        numberOfPair = filtro.count()
+    # def assemblyOfGroups(category):
+    #     filtro = subscription.objects.filter(subscription.category == category).order_by(subscription.pairPoint)
+    #     numberOfPair = filtro.count()
 
-        groupOne = []
-        groupTwo = []
+    #     groupOne = []
+    #     groupTwo = []
 
-        for i in range(1, numberOfPair):
-            filter.
+    #     for i in range(1, numberOfPair):
+    #         filter.
